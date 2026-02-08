@@ -6,7 +6,7 @@ return [
             'email'                  => 'メールアドレス',
             'forget-password-link'   => 'パスワードを忘れましたか？',
             'password'               => 'パスワード',
-            'powered-by-description' => ':webkul によるオープンソースプロジェクト :MAS によって提供されています。',
+            'powered-by-description' => ':webkul によるオープンソースプロジェクト :BuyHive によって提供されています。',
             'submit-btn'             => 'サインイン',
             'title'                  => 'サインイン',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => '登録済みメールアドレス',
                 'email-not-exist'        => 'メールアドレスが存在しません',
                 'page-title'             => 'パスワードを忘れる',
-                'powered-by-description' => ':webkul によるオープンソースプロジェクト :MAS によって提供されています。',
+                'powered-by-description' => ':webkul によるオープンソースプロジェクト :BuyHive によって提供されています。',
                 'reset-link-sent'        => 'パスワードリセットリンク送信済み',
                 'sign-in-link'           => 'サインイン画面に戻る？',
                 'submit-btn'             => 'リセット',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'パスワードを確認',
             'email'                  => '登録済みメールアドレス',
             'password'               => 'パスワード',
-            'powered-by-description' => ':webkul によるオープンソースプロジェクト :MAS によって提供されています。',
+            'powered-by-description' => ':webkul によるオープンソースプロジェクト :BuyHive によって提供されています。',
             'submit-btn'             => 'パスワードをリセット',
             'title'                  => 'パスワードをリセット',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => ':webkul によるオープンソースプロジェクト :MAS によって提供されています。',
+                'description' => ':webkul によるオープンソースプロジェクト :BuyHive によって提供されています。',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => '搭載 <a href="https://masholdings.com/" target="_blank">MAS</a>, Webkulによるコミュニティプロジェクト<a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => '搭載 <a href="https://masholdings.com/" target="_blank">BuyHive</a>, Webkulによるコミュニティプロジェクト<a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [

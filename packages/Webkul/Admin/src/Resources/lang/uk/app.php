@@ -6,7 +6,7 @@ return [
             'email'                  => 'Адреса електронної пошти',
             'forget-password-link'   => 'Забули пароль?',
             'password'               => 'Пароль',
-            'powered-by-description' => 'Працює на платформі :MAS, спільний проект :webkul.',
+            'powered-by-description' => 'Працює на платформі :BuyHive спільний проект :webkul.',
             'submit-btn'             => 'Увійти',
             'title'                  => 'Увійти',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Зареєстрована електронна пошта',
                 'email-not-exist'        => 'Електронна пошта не існує',
                 'page-title'             => 'Забули пароль',
-                'powered-by-description' => 'Працює на платформі :MAS, спільний проект :webkul.',
+                'powered-by-description' => 'Працює на платформі :BuyHive спільний проект :webkul.',
                 'reset-link-sent'        => 'Посилання на скидання пароля відправлено',
                 'sign-in-link'           => 'Повернутися до увійти?',
                 'submit-btn'             => 'Скинути',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Підтвердити пароль',
             'email'                  => 'Зареєстрована електронна пошта',
             'password'               => 'Пароль',
-            'powered-by-description' => 'Працює на платформі :MAS, спільний проект :webkul.',
+            'powered-by-description' => 'Працює на платформі :BuyHive спільний проект :webkul.',
             'submit-btn'             => 'Скинути пароль',
             'title'                  => 'Скинути пароль',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Працює на платформі :MAS, спільний проект :webkul.',
+                'description' => 'Працює на платформі :BuyHive спільний проект :webkul.',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Працює на платформі <a href="https://masholdings.com/" target="_blank">MAS</a>, Спільний проект <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => 'Працює на платформі <a href="https://masholdings.com/" target="_blank">BuyHive</a>, Спільний проект <a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [

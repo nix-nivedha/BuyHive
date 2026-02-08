@@ -6,7 +6,7 @@ return [
             'email'                  => 'Email Address',
             'forget-password-link'   => 'Forget Password ?',
             'password'               => 'Password',
-            'powered-by-description' => 'Powered by MAS',
+            'powered-by-description' => 'Powered by BuyHive',
             'submit-btn'             => 'Sign In',
             'title'                  => 'Sign In',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Registered Email',
                 'email-not-exist'        => 'Email Not Exists',
                 'page-title'             => 'Forget Password',
-                'powered-by-description' => 'Powered by MAS',
+                'powered-by-description' => 'Powered by BuyHive',
                 'reset-link-sent'        => 'Reset Password link sent',
                 'sign-in-link'           => 'Back to Sign In ?',
                 'submit-btn'             => 'Reset',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Confirm Password',
             'email'                  => 'Registered Email',
             'password'               => 'Password',
-            'powered-by-description' => 'Powered by MAS',
+            'powered-by-description' => 'Powered by BuyHive',
             'submit-btn'             => 'Reset Password',
             'title'                  => 'Reset Password',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Powered by MAS',
+                'description' => 'Powered by BuyHive',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Powered by <a href="https://masholdings.com/" target="_blank">MAS</a>, A Community Project by <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => 'Powered by <a href="https://masholdings.com/" target="_blank">BuyHive</a>, A Community Project by <a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [

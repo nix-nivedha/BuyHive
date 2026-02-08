@@ -6,7 +6,7 @@ return [
             'email'                  => 'Adres e-mail',
             'forget-password-link'   => 'Zapomniałeś hasła?',
             'password'               => 'Hasło',
-            'powered-by-description' => 'Napędzane przez :MAS, projekt open-source autorstwa :webkul.',
+            'powered-by-description' => 'Napędzane przez :BuyHive projekt open-source autorstwa :webkul.',
             'submit-btn'             => 'Zaloguj się',
             'title'                  => 'Zaloguj się',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Zarejestrowany adres e-mail',
                 'email-not-exist'        => 'E-mail nie istnieje',
                 'page-title'             => 'Zapomniałem hasła',
-                'powered-by-description' => 'Napędzane przez :MAS, projekt open-source autorstwa :webkul.',
+                'powered-by-description' => 'Napędzane przez :BuyHive projekt open-source autorstwa :webkul.',
                 'reset-link-sent'        => 'Link do resetowania hasła wysłany',
                 'sign-in-link'           => 'Powrót do logowania?',
                 'submit-btn'             => 'Resetuj',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Potwierdź hasło',
             'email'                  => 'Zarejestrowany adres e-mail',
             'password'               => 'Hasło',
-            'powered-by-description' => 'Napędzane przez :MAS, projekt open-source autorstwa :webkul.',
+            'powered-by-description' => 'Napędzane przez :BuyHive projekt open-source autorstwa :webkul.',
             'submit-btn'             => 'Zresetuj hasło',
             'title'                  => 'Zresetuj hasło',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Napędzane przez :MAS, projekt open-source autorstwa :webkul.',
+                'description' => 'Napędzane przez :BuyHive projekt open-source autorstwa :webkul.',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Napędzane przez <a href="https://masholdings.com/" target="_blank">MAS</a>, Projekt społecznościowy <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => 'Napędzane przez <a href="https://masholdings.com/" target="_blank">BuyHive</a>, Projekt społecznościowy <a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [

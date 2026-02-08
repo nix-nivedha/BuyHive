@@ -6,7 +6,7 @@ return [
             'email'                  => 'Indirizzo Email',
             'forget-password-link'   => 'Password Dimenticata?',
             'password'               => 'Password',
-            'powered-by-description' => 'Powered by :MAS, un progetto open-source di :webkul.',
+            'powered-by-description' => 'Powered by :BuyHive un progetto open-source di :webkul.',
             'submit-btn'             => 'Accedi',
             'title'                  => 'Accedi',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Email Registrata',
                 'email-not-exist'        => 'Email Non Esistente',
                 'page-title'             => 'Password Dimenticata',
-                'powered-by-description' => 'Powered by :MAS, un progetto open-source di :webkul.',
+                'powered-by-description' => 'Powered by :BuyHive un progetto open-source di :webkul.',
                 'reset-link-sent'        => 'Link per il ripristino della password inviato',
                 'sign-in-link'           => 'Torna al Login?',
                 'submit-btn'             => 'Ripristina',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Conferma Password',
             'email'                  => 'Email Registrata',
             'password'               => 'Password',
-            'powered-by-description' => 'Powered by :MAS, un progetto open-source di :webkul.',
+            'powered-by-description' => 'Powered by :BuyHive un progetto open-source di :webkul.',
             'submit-btn'             => 'Ripristina Password',
             'title'                  => 'Ripristina Password',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Powered by :MAS, un progetto open-source di :webkul.',
+                'description' => 'Powered by :BuyHive un progetto open-source di :webkul.',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Realizzato da <a href="https://masholdings.com/" target="_blank">MAS</a>, un progetto della community di <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => 'Realizzato da <a href="https://masholdings.com/" target="_blank">BuyHive</a>, un progetto della community di <a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [

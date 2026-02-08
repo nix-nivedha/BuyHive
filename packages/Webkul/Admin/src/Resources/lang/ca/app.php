@@ -6,7 +6,7 @@ return [
             'email'                  => 'Adreça de correu electrònic',
             'forget-password-link'   => 'Has oblidat la contrasenya?',
             'password'               => 'Contrasenya',
-            'powered-by-description' => 'Impulsat per :MAS, un projecte de codi obert de :webkul.',
+            'powered-by-description' => 'Impulsat per :BuyHive un projecte de codi obert de :webkul.',
             'submit-btn'             => 'Iniciar sessió',
             'title'                  => 'Iniciar sessió',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Correu electrònic registrat',
                 'email-not-exist'        => 'El correu electrònic no existeix',
                 'page-title'             => 'Oblidar contrasenya',
-                'powered-by-description' => 'Impulsat per :MAS, un projecte de codi obert de :webkul.',
+                'powered-by-description' => 'Impulsat per :BuyHive un projecte de codi obert de :webkul.',
                 'reset-link-sent'        => 'Enllaç per restablir la contrasenya enviat',
                 'sign-in-link'           => 'Tornar a iniciar sessió?',
                 'submit-btn'             => 'Restablir',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Confirmar contrasenya',
             'email'                  => 'Correu electrònic registrat',
             'password'               => 'Contrasenya',
-            'powered-by-description' => 'Impulsat per :MAS, un projecte de codi obert de :webkul.',
+            'powered-by-description' => 'Impulsat per :BuyHive un projecte de codi obert de :webkul.',
             'submit-btn'             => 'Restablir contrasenya',
             'title'                  => 'Restablir contrasenya',
         ],
@@ -4696,7 +4696,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Desenvolupat per :MAS, un projecte de codi obert per :webkul.',
+                'description' => 'Desenvolupat per :BuyHive un projecte de codi obert per :webkul.',
             ],
         ],
 
@@ -4996,7 +4996,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Desenvolupat per <a href="https://masholdings.com/" target="_blank">MAS</a>, Un Projecte Comunitari per <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => 'Desenvolupat per <a href="https://masholdings.com/" target="_blank">BuyHive</a>, Un Projecte Comunitari per <a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [

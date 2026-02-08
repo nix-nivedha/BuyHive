@@ -6,7 +6,7 @@ return [
             'email'                  => 'E-Mail-Adresse',
             'forget-password-link'   => 'Passwort vergessen?',
             'password'               => 'Passwort',
-            'powered-by-description' => 'Powered by MAS',
+            'powered-by-description' => 'Powered by BuyHive',
             'submit-btn'             => 'Anmelden',
             'title'                  => 'Anmelden',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Registrierte E-Mail',
                 'email-not-exist'        => 'E-Mail existiert nicht',
                 'page-title'             => 'Passwort vergessen',
-                'powered-by-description' => 'Powered by MAS',
+                'powered-by-description' => 'Powered by BuyHive',
                 'reset-link-sent'        => 'Link zum Zurücksetzen des Passworts gesendet',
                 'sign-in-link'           => 'Zurück zur Anmeldung?',
                 'submit-btn'             => 'Zurücksetzen',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Passwort bestätigen',
             'email'                  => 'Registrierte E-Mail',
             'password'               => 'Passwort',
-            'powered-by-description' => 'Powered by MAS',
+            'powered-by-description' => 'Powered by BuyHive',
             'submit-btn'             => 'Passwort zurücksetzen',
             'title'                  => 'Passwort zurücksetzen',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'MAS',
+                'description' => 'BuyHive',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Powered by <a href="https://masholdings.com/" target="_blank">MAS</a>',
+        'copy-right' => 'Powered by <a href="https://masholdings.com/" target="_blank">BuyHive</a>',
     ],
 
     'emails' => [

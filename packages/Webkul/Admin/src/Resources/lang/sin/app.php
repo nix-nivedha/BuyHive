@@ -6,7 +6,7 @@ return [
             'email'                  => 'ඊමේල් ලිපිනය',
             'forget-password-link'   => 'මුර මුදල් අමතකවෙනිද?',
             'password'               => 'මුර පදය',
-            'powered-by-description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :MAS විසින් බලගැන්වී ඇත.',
+            'powered-by-description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :BuyHive විසින් බලගැන්වී ඇත.',
             'submit-btn'             => 'පිවිසීම',
             'title'                  => 'පිවිසීම',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'ලිපිනය',
                 'email-not-exist'        => 'ලිපිනය නොපවතී',
                 'page-title'             => 'මුර මුදල් අමතකවෙනිද?',
-                'powered-by-description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :MAS විසින් බලගැන්වී ඇත.',
+                'powered-by-description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :BuyHive විසින් බලගැන්වී ඇත.',
                 'reset-link-sent'        => 'මුර මුදල් අමතකවූ ලින්ක් එක යවන ලදි',
                 'sign-in-link'           => 'පිවිසීමට ආරම්භකරන්න?',
                 'submit-btn'             => 'නැවත සකසන්න',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'මුර පදය තහවුරු කරන්න',
             'email'                  => 'ලිපිනය',
             'password'               => 'මුර පදය',
-            'powered-by-description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :MAS විසින් බලගැන්වී ඇත.',
+            'powered-by-description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :BuyHive විසින් බලගැන්වී ඇත.',
             'submit-btn'             => 'මුර පදය නැවත සකසන්න',
             'title'                  => 'මුර පදය නැවත සකසන්න',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :MAS විසින් බලගැන්වෙන ලදි.',
+                'description' => ':webkul විසින් නිර්මාණය කරන ලද විවෘත මූලාශ්‍ර ව්‍යාපෘතියක් වන :BuyHive විසින් බලගැන්වෙන ලදි.',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'බගිස්ටෝ ආදේශයේ බරපත වෙබ්කුල්, සංචාලන ව්යාපෘති මාධ්යකුම අතියේ <a href="https://masholdings.com/" target="_blank">MAS</a> වෙතට බලන්න',
+        'copy-right' => 'බගිස්ටෝ ආදේශයේ බරපත වෙබ්කුල්, සංචාලන ව්යාපෘති මාධ්යකුම අතියේ <a href="https://masholdings.com/" target="_blank">BuyHive</a> වෙතට බලන්න',
     ],
 
     'emails' => [

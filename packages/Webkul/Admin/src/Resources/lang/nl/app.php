@@ -6,7 +6,7 @@ return [
             'email'                  => 'E-mailadres',
             'forget-password-link'   => 'Wachtwoord Vergeten?',
             'password'               => 'Wachtwoord',
-            'powered-by-description' => 'Aangedreven door :MAS, een open-source project van :webkul.',
+            'powered-by-description' => 'Aangedreven door :BuyHive een open-source project van :webkul.',
             'submit-btn'             => 'Aanmelden',
             'title'                  => 'Aanmelden',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'Geregistreerd E-mailadres',
                 'email-not-exist'        => 'E-mailadres Bestaat Niet',
                 'page-title'             => 'Wachtwoord Vergeten',
-                'powered-by-description' => 'Aangedreven door :MAS, een open-source project van :webkul.',
+                'powered-by-description' => 'Aangedreven door :BuyHive een open-source project van :webkul.',
                 'reset-link-sent'        => 'Reset Wachtwoordlink Verzonden',
                 'sign-in-link'           => 'Terug naar Aanmelden?',
                 'submit-btn'             => 'Herstellen',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'Bevestig Wachtwoord',
             'email'                  => 'Geregistreerd E-mailadres',
             'password'               => 'Wachtwoord',
-            'powered-by-description' => 'Aangedreven door :MAS, een open-source project van :webkul.',
+            'powered-by-description' => 'Aangedreven door :BuyHive een open-source project van :webkul.',
             'submit-btn'             => 'Wachtwoord Herstellen',
             'title'                  => 'Wachtwoord Herstellen',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Aangedreven door :MAS, een open-source project van :webkul.',
+                'description' => 'Aangedreven door :BuyHive een open-source project van :webkul.',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Aangedreven door <a href="https://masholdings.com/" target="_blank">MAS</a>, een Community Project van <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => 'Aangedreven door <a href="https://masholdings.com/" target="_blank">BuyHive</a>, een Community Project van <a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [

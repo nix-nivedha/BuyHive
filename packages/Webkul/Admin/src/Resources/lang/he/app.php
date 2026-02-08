@@ -6,7 +6,7 @@ return [
             'email'                  => 'כתובת אימייל',
             'forget-password-link'   => 'שכחת סיסמה?',
             'password'               => 'סיסמה',
-            'powered-by-description' => 'מופעל על ידי :MAS, פרויקט קוד פתוח על ידי :webkul.',
+            'powered-by-description' => 'מופעל על ידי :BuyHive פרויקט קוד פתוח על ידי :webkul.',
             'submit-btn'             => 'כניסה',
             'title'                  => 'כניסה',
         ],
@@ -16,7 +16,7 @@ return [
                 'email'                  => 'אימייל רשום',
                 'email-not-exist'        => 'אימייל לא קיים',
                 'page-title'             => 'שכחתי סיסמה',
-                'powered-by-description' => 'מופעל על ידי :MAS, פרויקט קוד פתוח על ידי :webkul.',
+                'powered-by-description' => 'מופעל על ידי :BuyHive פרויקט קוד פתוח על ידי :webkul.',
                 'reset-link-sent'        => 'קישור לאיפוס סיסמה נשלח',
                 'sign-in-link'           => 'חזור להתחברות?',
                 'submit-btn'             => 'איפוס',
@@ -29,7 +29,7 @@ return [
             'confirm-password'       => 'אימות סיסמה',
             'email'                  => 'אימייל רשום',
             'password'               => 'סיסמה',
-            'powered-by-description' => 'מופעל על ידי :MAS, פרויקט קוד פתוח על ידי :webkul.',
+            'powered-by-description' => 'מופעל על ידי :BuyHive פרויקט קוד פתוח על ידי :webkul.',
             'submit-btn'             => 'איפוס סיסמה',
             'title'                  => 'איפוס סיסמה',
         ],
@@ -4697,7 +4697,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'מופעל על ידי :MAS, פרויקט קוד פתוח על ידי :webkul.',
+                'description' => 'מופעל על ידי :BuyHive פרויקט קוד פתוח על ידי :webkul.',
             ],
         ],
 
@@ -4997,7 +4997,7 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'מופעל על ידי <a href="https://masholdings.com/" target="_blank">MAS</a>, פרויקט קהילתי על ידי <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => 'מופעל על ידי <a href="https://masholdings.com/" target="_blank">BuyHive</a>, פרויקט קהילתי על ידי <a href="https://webkul.com/" target="_blank">Webkul</a>',
     ],
 
     'emails' => [
