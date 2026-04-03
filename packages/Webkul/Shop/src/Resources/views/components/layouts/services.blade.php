@@ -14,27 +14,32 @@
         'status'     => 1,
         'theme_code' => $channel->theme,
         'channel_id' => $channel->id,
-    ]); 
+    ]);
 @endphp
 
 <!-- Features -->
-@if ($customization)
+@if (
+    $customization &&
+    isset($customization->options['services']) &&
+    is_array($customization->options['services']) &&
+    count($customization->options['services']) > 0
+)
     <div class="container mt-20 max-lg:px-8 max-md:mt-10 max-md:px-4">
-        <div class="max-md:max-y-6 flex justify-center gap-6 max-lg:flex-wrap max-md:grid max-md:grid-cols-2 max-md:gap-x-2.5 max-md:text-center">
+        <div class="max-md:max-y-0 flex justify-center gap-6 max-lg:flex-wrap max-md:grid max-md:grid-cols-2">
             @foreach ($customization->options['services'] as $service)
-                <div class="flex items-center gap-5 bg-white max-md:grid max-md:gap-2.5 max-sm:gap-1 max-sm:px-2">
+                <div class="flex items-center gap-5 bg-white max-md:grid max-md:gap-2.5 max-sm:gap-1">
                     <span
-                        class="{{$service['service_icon']}} flex items-center justify-center w-[60px] h-[60px] bg-white border border-black rounded-full text-4xl text-navyBlue p-2.5 max-md:m-auto max-md:w-16 max-md:h-16 max-sm:w-10 max-sm:h-10 max-sm:text-2xl"
+                        class="{{ $service['service_icon'] ?? '' }} flex items-center justify-center w-[60px]"
                         role="presentation"
                     ></span>
 
-                    <div class="max-lg:grid max-lg:justify-center">
-                        <!-- Service Title -->
-                        <p class="font-dmserif text-base font-medium max-md:text-xl max-sm:text-sm">{{$service['title']}}</p>
+                    <div class="grid gap-1.5">
+                        <p class="text-base font-medium">
+                            {{ $service['title'] ?? '' }}
+                        </p>
 
-                        <!-- Service Description -->
-                        <p class="mt-2.5 max-w-[217px] text-sm font-medium text-zinc-500 max-md:mt-0 max-md:text-base max-sm:text-xs">
-                            {{$service['description']}}
+                        <p class="text-zinc-500">
+                            {{ $service['description'] ?? '' }}
                         </p>
                     </div>
                 </div>
