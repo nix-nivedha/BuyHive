@@ -43,6 +43,10 @@ class WishlistController extends APIController
      */
     public function store(): JsonResource
     {
+        if (! auth()->guard('customer')->check()) {
+            abort(401);
+        }
+
         $this->validate(request(), [
             'product_id' => 'required|integer|exists:products,id',
         ]);
@@ -58,7 +62,7 @@ class WishlistController extends APIController
         $data = [
             'channel_id'  => core()->getCurrentChannel()->id,
             'product_id'  => $product->id,
-            'customer_id' => auth()->guard()->user()->id,
+            'customer_id' => auth()->guard('customer')->user()->id,
         ];
 
         if (! $this->wishlistRepository->findOneWhere($data)) {
@@ -71,7 +75,7 @@ class WishlistController extends APIController
 
         $this->wishlistRepository->deleteWhere([
             'product_id'  => $product->id,
-            'customer_id' => auth()->guard()->user()->id,
+            'customer_id' => auth()->guard('customer')->user()->id,
         ]);
 
         return new JsonResource([
@@ -119,7 +123,7 @@ class WishlistController extends APIController
             return new JsonResource([
                 'redirect' => true,
                 'data'     => route('shop.product_or_category.index', $wishlistItem->product->url_key),
-                'message'  => $exception->getMessage(),
+                'message'  => 'Unable to move item to cart at this time.',
             ]);
         }
     }
