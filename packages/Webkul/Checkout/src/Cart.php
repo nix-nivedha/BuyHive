@@ -257,6 +257,12 @@ class Cart
     {
         Event::dispatch('checkout.cart.add.before', $product->id);
 
+        // Validate quantity to prevent negative values and price manipulation
+        $quantity = isset($data['quantity']) ? (int) $data['quantity'] : 1;
+        if ($quantity < 1) {
+            throw new \Exception(__('shop::app.checkout.cart.illegal'));
+        }
+
         if (! $this->cart) {
             $this->createCart([]);
         }
@@ -655,6 +661,11 @@ class Cart
      */
     public function moveToWishlist(int $itemId, int $quantity = 1): bool
     {
+        // Validate quantity to prevent negative values
+        if ($quantity < 1) {
+            throw new \Exception(__('shop::app.checkout.cart.illegal'));
+        }
+
         $cartItem = $this->cart->items()->find($itemId);
 
         if (! $cartItem) {

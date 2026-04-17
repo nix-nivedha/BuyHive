@@ -69,6 +69,7 @@ class SocialiteManager extends BaseSocialiteManager
      *
      * @return \Laravel\Socialite\Two\AbstractProvider
      */
+    
     protected function createGoogleDriver()
     {
         $clientId = core()->getConfigData('customer.settings.social_login.google_client_id');

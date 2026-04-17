@@ -49,6 +49,7 @@ class CartController extends APIController
     {
         $this->validate(request(), [
             'product_id' => 'required|integer|exists:products,id',
+            'quantity'   => 'nullable|integer|min:1',
         ]);
 
         $product = $this->productRepository->with('parent')->findOrFail(request()->input('product_id'));
@@ -120,7 +121,14 @@ class CartController extends APIController
     public function moveToWishlist(): JsonResource
     {
         foreach (request()->input('ids') as $index => $id) {
-            $qty = request()->input('qty')[$index];
+            $qty = (int) request()->input('qty')[$index];
+            
+            // Validate quantity to prevent negative values
+            if ($qty < 1) {
+                return new JsonResource([
+                    'message'  => trans('shop::app.checkout.cart.illegal'),
+                ]);
+            }
 
             Cart::moveToWishlist($id, $qty);
         }
@@ -137,6 +145,14 @@ class CartController extends APIController
     public function update(): JsonResource
     {
         try {
+            // Validate quantity values to prevent negative values
+            $qtyData = request()->input('qty', []);
+            foreach ($qtyData as $itemId => $quantity) {
+                if ((int) $quantity < 1) {
+                    throw new \Exception(__('shop::app.checkout.cart.illegal'));
+                }
+            }
+
             Cart::updateItems(request()->input());
 
             return new JsonResource([

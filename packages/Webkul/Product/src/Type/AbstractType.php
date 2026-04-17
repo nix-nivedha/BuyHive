@@ -812,7 +812,8 @@ abstract class AbstractType
      */
     public function handleQuantity(int $quantity): int
     {
-        return $quantity ?: 1;
+        // Ensure quantity is at least 1, reject any negative or zero values
+        return max($quantity ?: 1, 1);
     }
 
     /**

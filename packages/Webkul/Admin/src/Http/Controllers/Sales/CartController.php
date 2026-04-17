@@ -79,6 +79,7 @@ class CartController extends Controller
     {
         $this->validate(request(), [
             'product_id' => 'required|integer|exists:products,id',
+            'quantity'   => 'nullable|integer|min:1',
         ]);
 
         $cart = $this->cartRepository->findOrFail($cartId);
@@ -136,6 +137,14 @@ class CartController extends Controller
         Cart::setCart($cart);
 
         try {
+            // Validate quantity values to prevent negative values
+            $qtyData = request()->input('qty', []);
+            foreach ($qtyData as $itemId => $quantity) {
+                if ((int) $quantity < 1) {
+                    throw new \Exception(__('shop::app.checkout.cart.illegal'));
+                }
+            }
+
             Cart::updateItems(request()->input());
 
             return new JsonResource([
